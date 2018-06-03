@@ -1,0 +1,117 @@
+# depslib dependency file v1.0
+1528388931 source:c:\nanobots\peliculas\main.c
+	<string.h>
+	"lib.h"
+	"menu.h"
+
+1528390372 c:\nanobots\peliculas\menu.h
+
+1528388931 source:c:\nanobots\peliculas\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"lib.h"
+	"listadoMovie.h"
+	"altaMovie.h"
+	"bajaMovie.h"
+	"modificarmovie.h"
+
+1528390372 c:\nanobots\peliculas\lib.h
+
+1528388931 source:c:\nanobots\peliculas\lib.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lib.h"
+	"altaMovie.h"
+
+1526233890 c:\nanobots\peliculas\grafico.h
+
+1528390372 c:\nanobots\peliculas\listadomovie.h
+
+1528391921 source:c:\nanobots\peliculas\listadomovie.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lib.h"
+	"listadoMovie.h"
+	"cartel.h"
+
+1528388931 source:c:\nanobots\peliculas\altamovie.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"lib.h"
+
+1528390372 c:\nanobots\peliculas\altamovie.h
+
+1527571672 source:c:\nanobots\peliculas\listadohtml.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1527720015 source:c:\nanobots\peliculas1\altamovie.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"lib.h"
+
+1527747980 c:\nanobots\peliculas1\lib.h
+
+1527747675 source:c:\nanobots\peliculas1\listadomovie.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lib.h"
+	"listadoMovie.h"
+
+1527312251 c:\nanobots\peliculas1\listadomovie.h
+
+1527748292 source:c:\nanobots\peliculas1\main.c
+	<string.h>
+	"lib.h"
+	"menu.h"
+
+1527309967 c:\nanobots\peliculas1\menu.h
+
+1527747019 source:c:\nanobots\peliculas1\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"lib.h"
+	"listadoMovie.h"
+	"altaMovie.h"
+
+1527431019 c:\nanobots\peliculas1\altamovie.h
+
+1527748776 source:c:\nanobots\peliculas1\lib.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lib.h"
+	"altaMovie.h"
+
+1528388931 source:c:\nanobots\peliculas\bajamovie.c
+	<stdio.h>
+	<stdlib.h>
+	"lib.h"
+	"bajaMovie.h"
+
+1528390372 c:\nanobots\peliculas\bajamovie.h
+
+1528388931 source:c:\nanobots\peliculas\modificarmovie.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"lib.h"
+	"modificarMovie.h"
+
+1528390372 c:\nanobots\peliculas\modificarmovie.h
+
+1528392282 source:c:\nanobots\peliculas\cartel.c
+	<stdio.h>
+	<stdlib.h>
+
+1528391263 c:\nanobots\peliculas\cartel.h
+
