@@ -17,7 +17,7 @@
 
 1528390372 c:\nanobots\peliculas\lib.h
 
-1528388931 source:c:\nanobots\peliculas\lib.c
+1528398470 source:c:\nanobots\peliculas\lib.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -109,7 +109,7 @@
 
 1528390372 c:\nanobots\peliculas\modificarmovie.h
 
-1528392282 source:c:\nanobots\peliculas\cartel.c
+1528392410 source:c:\nanobots\peliculas\cartel.c
 	<stdio.h>
 	<stdlib.h>
 

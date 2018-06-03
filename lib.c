@@ -84,19 +84,23 @@
         }
    }
     void HardCodeMovie(eMovie* movie, int tammovies){
-        int id[6] = {1,4,6,2,5,3};
-        char titulo[6][25] = {"Back to the future","The Secret Life of Pets","Assassins Creed","maria cuire","Mind and Machine","The Land of Stealth"};
+        int id[6] = {1,2,3,4,5,6};
+        char titulo[6][25] = {"Back to the future","The Secret Life of Pets","Assassins Creed","maria cuire","La llegada","The Land of Stealth"};
         char genero[6][16] = {"Aventura","Animacion","Accion","Biografica","Ciencia ficcion","Romance"};
-        int duracion[6] = {116,89,120,100,130,116};
+        int duracion[6] = {116,89,120,100,130,107};
         int puntaje[6] = {86,87,92,88,75,68};
-        char LinkDeImagen[6][160] = {"http://image.tmdb.org/t/p/w185/xS3k4YTyt5DdaLmbDGxdioi2v3w.jpg","http://image.tmdb.org/t/p/w185/q2icKmDXoj8FSc2IZU3sOIB2EAG.jpg","thumbnails//AssassinsCreed.jpg","http://image.tmdb.org/t/p/w185/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg","thumbnails//Mind-and-Machine.jpg","thumbnails//TheLandofStealth.jpg"};
+        char LinkDeImagen[6][160] = {{"http://image.tmdb.org/t/p/w185/xS3k4YTyt5DdaLmbDGxdioi2v3w.jpg"},
+                                    {"http://image.tmdb.org/t/p/w185/iX3RJLK9Ywi9OXYZrCigNbNPSZY.jpg"},
+                                    {"http://image.tmdb.org/t/p/w185/uYTkCRCVfa4KIUY20cpUsKl0Oja.jpg"},
+                                    {"http://image.tmdb.org/t/p/w185/deQF63CxP3NtahOZ9fEjdyCZK3t.jpg"},
+                                    {"http://image.tmdb.org/t/p/w185/AcilyyFwtFuZAkSD9oi2CBw4J9Q.jpg"},
+                                    {"http://image.tmdb.org/t/p/w185/uXcL5VprgcDqwlLG3kYX7BtrX0W.jpg"}};
         char sinopsis[6][700] = {{"Marty McFly es un adolescente amigo de Doc, un científico a los que todos menos él toman por chiflado. Cuando Doc crea una máquina para viajar en el tiempo en forma de un automóvil deportivo, Marty viaja accidentalmente al año 1955. Allí se encontrará con sus padres cuando eran jóvenes, pero impide su primer encuentro. A partir de entonces, y con el tiempo en su contra, McFly deberá conseguir que se enamoren para que se casen y él no deje de existir."},
                                   {"En un apartamento de Manhattan,las mascotas se reúnen tras la marcha de sus dueños para contar humillantes historias sobre ellos. Su líder un Fox Terrier que ve amenazada su posición de privilegio por la llegada de un perro mestizo.Su rivalidad les llevará a acabar en las duras calles de Nueva York,donde se encontrarán con un aparentemente adorable conejo que en realidad es el líder de un ejército de mascotas abandonadas que ha jurado venganza."},
                                   {"Gracias a una tecnología revolucionaria que permite el acceso a los recuerdos genéticos, Callum Lynch (Michael Fassbender) revive las aventuras de Aguilar, un antepasado suyo que vivió en la España del siglo XV. Así descubre que es descendiente de una misteriosa organización secreta, los Asesinos, y que posee las habilidades y los conocimientos necesarios para enfrentarse a la poderosa y temible organización de los Templarios en la época actual."},
                                   {"Al poco tiempo de que la pareja Curie fuera recompensada con el premio Nobel de Física, Pierre muere en un trágico accidente. Sola con dos niños, la treintañera Marie se aferra a sus estudios científicos en un mundo dominado por los hombres y se convierte en la primera mujer en recibir una cátedra en la Sorbona de París. Cuando se enamora de un científico casado e inicia una aventura con él, la mujer de éste, celosa, hace pública su relación al mismo tiempo que se anuncia su premio Nobel de Química. En lugar de disfrutar de la fama que se ha ganado por su portentoso trabajo de investigación, Marie se ve difamada por cometer adulterio."},
-                                  {"Situada en el futuro cercano donde los robots humanoides son comunes en la sociedad, la mafia reprograma a una mujer androide para pensar y sentir con el fin de usarla como asesino a sueldo. Esto tiene consecuencias peligrosas a medida que desarrolla una relación con su creador a la vez que se convierte lentamente en una psicópata asesina."},
-                                  {"Shinobi no Kuni nos presenta a Mumon (Satoshi Ono) un personaje que a pesar de ser muy perezoso es también el mejor shinobi de la provincia de Iga. Un día, él mata a un shinobi de una familia diferente para una recompensa. Mumon no sabe que sus acciones conducirán a una batalla mortal entre el cuerpo del shinobi de la provincia de Iga y el cuerpo de Nobukatsu Oda en Ise."}
-                                  };
+                                  {"Cuando misteriosas naves espaciales aterrizan en todo el mundo, un equipo de élite (Jeremy Renner y Forest Whitaker) liderado por la lingüista Louise Banks (Amy Adams) intentan descifrar el motivo de su visita. A medida que la humanidad se tambalea al borde de una guerra, Louise y su equipo luchan contra el tiempo llegando a poner en peligro su vida y, muy posiblemente, la del resto de la humanidad."},
+                                  {"El 27 de junio de 1976 un avión procedente de Tel Aviv es secuestrado. Los terroristas piden la liberación de los presos palestinos en Israel, con la amenaza de asesinar a los pasajeros del avión, convertido en rehenes. El avión aterrizó en Entebbe, Uganda, donde tuvo lugar una de las operaciones de rescate más impactantes de la historia reciente."}};
         inicializarEmovie(movie, tammovies);
  //       for(int i = 0; i<tammovies ; i++){
  //           (movie+i)->idMovie = 0;
